@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Web", "Mitra.Web\Mitra.Web.csproj", "{0996913F-CBFD-49C5-9047-FF09D93067ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.CommonComponent", "Mitra.CommonComponent\Mitra.CommonComponent.csproj", "{149252D8-816D-421C-980D-62073AC26B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Applications", "Mitra.Applications\Mitra.Applications.csproj", "{CF86F983-75C4-4197-BC36-5CA9B9C34D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.API", "Mitra.API\Mitra.API.csproj", "{ED10EFF1-1C21-4D79-8258-D4E5512E6BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Domain", "Mitra.Domain\Mitra.Domain.csproj", "{1A6383DC-7DD6-44D5-9C43-5312F1991340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Infrastructure", "Mitra.Infrastructure\Mitra.Infrastructure.csproj", "{5A72B3A2-733E-4E8B-BA14-0E31DC1B5502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0996913F-CBFD-49C5-9047-FF09D93067ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0996913F-CBFD-49C5-9047-FF09D93067ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0996913F-CBFD-49C5-9047-FF09D93067ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0996913F-CBFD-49C5-9047-FF09D93067ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149252D8-816D-421C-980D-62073AC26B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149252D8-816D-421C-980D-62073AC26B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149252D8-816D-421C-980D-62073AC26B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149252D8-816D-421C-980D-62073AC26B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF86F983-75C4-4197-BC36-5CA9B9C34D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF86F983-75C4-4197-BC36-5CA9B9C34D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF86F983-75C4-4197-BC36-5CA9B9C34D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF86F983-75C4-4197-BC36-5CA9B9C34D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED10EFF1-1C21-4D79-8258-D4E5512E6BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED10EFF1-1C21-4D79-8258-D4E5512E6BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED10EFF1-1C21-4D79-8258-D4E5512E6BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED10EFF1-1C21-4D79-8258-D4E5512E6BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6383DC-7DD6-44D5-9C43-5312F1991340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6383DC-7DD6-44D5-9C43-5312F1991340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6383DC-7DD6-44D5-9C43-5312F1991340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6383DC-7DD6-44D5-9C43-5312F1991340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A72B3A2-733E-4E8B-BA14-0E31DC1B5502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A72B3A2-733E-4E8B-BA14-0E31DC1B5502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A72B3A2-733E-4E8B-BA14-0E31DC1B5502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A72B3A2-733E-4E8B-BA14-0E31DC1B5502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C843B3-D2CE-4974-827E-D634CC914ED4}
+	EndGlobalSection
+EndGlobal
