@@ -396,3 +396,58 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+# .NET Core
+*.obj
+*.bin
+*.dll
+*.exe
+*.pdb
+*.user
+*.vs
+*.vscode
+*.suo
+*.cache
+*.log
+*.jfm
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+testResults/
+[Oo]ut/
+
+# Visual Studio files
+.vs/
+*.sln.iml
+*.ipch/
+*.iws
+*.sw?
+*.userprefs
+*.pidb
+*.suo
+*. suo
+*. suo
+_ReSharper*/
+ReSharper*/
+[Tt]humbs.db
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.[Cc]ache
+*.sqlproj.user
+*.bak
+*.vssscc
+*.vspscc
+.vsconfig
+*.orig
+build/
+src/
+.idea/
+*.sln
+*.csproj.user
+*.resharper
+_ReSharper.*/
+[Tt]emp/
+*.TMP
+*.tmp
