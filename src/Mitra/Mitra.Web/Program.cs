@@ -13,7 +13,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7123") });
 builder.Services.AddBlazoredLocalStorage();
-builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+//builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
