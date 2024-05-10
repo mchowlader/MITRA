@@ -1,5 +1,7 @@
 ﻿@page "/counter"
-@rendermode InteractiveServer
+@* @rendermode InteractiveServer *@
+@rendermode @(new InteractiveServerRenderMode(prerender:false))
+
 <PageTitle>Counter</PageTitle>
 
 @* <Mitra.CommonComponent.Pages.Test2/> *@
