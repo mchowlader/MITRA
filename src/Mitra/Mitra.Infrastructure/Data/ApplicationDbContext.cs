@@ -12,6 +12,5 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     }
 
     public DbSet<ApplicationUser> Users { get; set; }
-    public DbSet<Test> Tests { get; set; }
     public DbSet<Contact> Contacts { get; set; }
 }
