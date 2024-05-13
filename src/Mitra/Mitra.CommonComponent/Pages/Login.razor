@@ -1,6 +1,38 @@
 ﻿@page "/login"
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient httpClient
 
-<h3>Login</h3>
+<h1>Login</h1>
+<form @onsubmit="HandleSubmit">
+    <label>Email:</label>
+    <input type="email" @bind="email" />
+    <label>Password:</label>
+    <input type="password" @bind="password" />
+    <button type="submit">Login</button>
+</form>
+
+@code {
+    private string email;
+    private string password;
+
+    private async Task HandleSubmit()
+    {
+        var loginModel = new { Email = email, Password = password };
+        var response = await httpClient.PostAsJsonAsync("https://localhost:44380/login", loginModel);
+
+        // Handle response
+        if (response.IsSuccessStatusCode)
+        {
+            // Redirect or do something on successful login
+        }
+        else
+        {
+            // Handle login failure
+        }
+    }
+}
+
 @* 
 <div class="row">
     <div class="col-lg-5">

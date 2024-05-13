@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Mitra.Applications.DTOs;
-using Mitra.Applications.IRepositories;
+using Mitra.Domain.IRepositories;
 using Mitra.Domain.Entities;
 using Mitra.Infrastructure.Data;
 using System.IdentityModel.Tokens.Jwt;

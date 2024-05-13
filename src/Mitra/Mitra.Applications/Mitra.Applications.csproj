@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mitra.Domain\Mitra.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
