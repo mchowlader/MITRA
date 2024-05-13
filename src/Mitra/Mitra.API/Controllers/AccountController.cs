@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Mitra.Applications.DTOs;
-using Mitra.Applications.IRepositories;
+using Mitra.Domain.IRepositories;
 
 namespace Mitra.API.Controllers;
 
@@ -18,14 +18,17 @@ public class AccountController : ControllerBase
     [HttpPost("login")]
     public async Task<ActionResult<LoginResponse>> LogIn(LoginDTO login)
     {
-        var result = await _user.LoginUserAsync(login);
-        return Ok(result);
+        //var result = await _user.LoginUserAsync(login);
+        //return Ok(result);
+        return default;
     }
 
     [HttpPost("register")]
     public async Task<ActionResult<RegistrationResponse>> Register(RegisterUserDTO register)
     {
-        var result = await _user.RegisterUserAsync(register);
-        return Ok(result);
+        //var result = await _user.RegisterUserAsync(register);
+        //return Ok(result);
+        return default;
+
     }
 }

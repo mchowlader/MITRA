@@ -1,12 +1,16 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using Mitra.Applications.IRepositories;
+using Mitra.Applications.IServices;
+using Mitra.Domain.IRepositories;
 using Mitra.Infrastructure.Data;
 using Mitra.Infrastructure.Repositories;
+using Mitra.Infrastructure.Service;
+using Mitra.Infrastructure.UnitOfWorks;
 using System.Text;
 
 namespace Mitra.Infrastructure.DependencyInjection;
@@ -47,6 +51,9 @@ public static class ServiceContailer
         //    });
 
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
+        services.AddScoped<IContactService, ContactService>();
+        services.AddScoped<IContactRepository, ContactRepository>();
 
         return services;
     }

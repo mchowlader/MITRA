@@ -4,6 +4,8 @@ using Microsoft.OpenApi.Models;
 using Mitra.Infrastructure.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 // Add services to the container.
 builder.Services.AddAuthorization();
@@ -43,7 +45,8 @@ builder.Services.AddSwaggerGen(swagger =>
         }
     });
 });
-//builder.Services.InfrastructureServices(builder.Configuration);
+builder.Services.AddHttpClient();
+
 
 var app = builder.Build();
 
