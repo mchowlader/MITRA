@@ -3,17 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Web", "Mitra.Web\Mitra.Web.csproj", "{0996913F-CBFD-49C5-9047-FF09D93067ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitra.Web", "Mitra.Web\Mitra.Web.csproj", "{0996913F-CBFD-49C5-9047-FF09D93067ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.CommonComponent", "Mitra.CommonComponent\Mitra.CommonComponent.csproj", "{149252D8-816D-421C-980D-62073AC26B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitra.CommonComponent", "Mitra.CommonComponent\Mitra.CommonComponent.csproj", "{149252D8-816D-421C-980D-62073AC26B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Applications", "Mitra.Applications\Mitra.Applications.csproj", "{CF86F983-75C4-4197-BC36-5CA9B9C34D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitra.Applications", "Mitra.Applications\Mitra.Applications.csproj", "{CF86F983-75C4-4197-BC36-5CA9B9C34D1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.API", "Mitra.API\Mitra.API.csproj", "{ED10EFF1-1C21-4D79-8258-D4E5512E6BA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitra.API", "Mitra.API\Mitra.API.csproj", "{ED10EFF1-1C21-4D79-8258-D4E5512E6BA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Domain", "Mitra.Domain\Mitra.Domain.csproj", "{1A6383DC-7DD6-44D5-9C43-5312F1991340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitra.Domain", "Mitra.Domain\Mitra.Domain.csproj", "{1A6383DC-7DD6-44D5-9C43-5312F1991340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitra.Infrastructure", "Mitra.Infrastructure\Mitra.Infrastructure.csproj", "{5A72B3A2-733E-4E8B-BA14-0E31DC1B5502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitra.Infrastructure", "Mitra.Infrastructure\Mitra.Infrastructure.csproj", "{5A72B3A2-733E-4E8B-BA14-0E31DC1B5502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2C58CBE-3E1A-4E3D-9808-CB19DB1518A3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

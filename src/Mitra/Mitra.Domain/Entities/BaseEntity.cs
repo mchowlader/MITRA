@@ -1,8 +1,14 @@
-﻿namespace Mitra.Domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Numerics;
+
+namespace Mitra.Domain.Entities;
 
 public class BaseEntity
 {
-    public required int Id { get; set; }
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public long Id { get; set; }
     public string? CreateBy { get; set; }
     public DateTime? CreateDate { get; set; }
     public string? UpdateBy { get; set; }

@@ -1,17 +1,13 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
 using Mitra.Applications.IServices;
+using Mitra.Applications.Services;
 using Mitra.Domain.IRepositories;
 using Mitra.Infrastructure.Data;
 using Mitra.Infrastructure.Repositories;
-using Mitra.Infrastructure.Service;
 using Mitra.Infrastructure.UnitOfWorks;
-using System.Text;
 
 namespace Mitra.Infrastructure.DependencyInjection;
 

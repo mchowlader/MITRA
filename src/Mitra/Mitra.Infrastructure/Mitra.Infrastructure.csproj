@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Mitra.Domain\Mitra.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 </Project>

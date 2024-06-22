@@ -11,6 +11,17 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
     }
 
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.Entity<Contact>(c =>
+        {
+            c.HasKey("Id");
+            c.Property(e => e.Id).ValueGeneratedOnAdd();
+        });
+
+        base.OnModelCreating(builder);
+    }
+
     public DbSet<ApplicationUser> Users { get; set; }
     public DbSet<Contact> Contacts { get; set; }
 }
